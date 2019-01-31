@@ -1,8 +1,6 @@
 # Lead Manager
 
-> Full stack Django/React/Redux app
-
-Info: This app and YouTube series is not yet finished. I will be making commits as videos are released
+> Full stack Django/React/Redux app that uses token based authentication with Knox.
 
 ## Quick Start
 
