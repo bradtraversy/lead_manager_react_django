@@ -4,7 +4,7 @@ const initialState = {
   leads: []
 };
 
-export default function(state = initialState, action) {
+export default function (state = initialState, action) {
   switch (action.type) {
     case GET_LEADS:
       return {
@@ -20,6 +20,11 @@ export default function(state = initialState, action) {
       return {
         ...state,
         leads: [...state.leads, action.payload]
+      };
+    case CLEAR_LEADS:
+      return {
+        ...state,
+        leads: []
       };
     default:
       return state;
