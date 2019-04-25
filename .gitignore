@@ -1,3 +1,7 @@
+.vs_code
+
+.DS_Store
+
 node_modules
 
 ### Django ###

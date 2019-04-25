@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/Users/bradtraversy/.local/share/virtualenvs/lead_manager_react_django-912rtT3t/bin/python"
+  "python.pythonPath": "/Users/shark/anaconda3/bin/python",
+  "python.linting.pylintEnabled": true
 }

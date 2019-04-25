@@ -53,9 +53,12 @@ export class Leads extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = state => {
+  console.log(state.leads);
+  return ({
   leads: state.leads.leads
 });
+};
 
 export default connect(
   mapStateToProps,

@@ -1,8 +1,8 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.conf.urls import url, include
 
 urlpatterns = [
-    path('', include('frontend.urls')),
-    path('', include('leads.urls')),
-    path('', include('accounts.urls'))
+    url('api/leads', include('leads.urls')),
+    url('api/auth', include('accounts.urls')),
+    url('', include('frontend.urls'))
 ]
