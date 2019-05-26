@@ -2,7 +2,8 @@ from django.contrib import admin
 from django.conf.urls import url, include
 
 urlpatterns = [
-    url('api/leads', include('leads.urls')),
-    url('api/auth', include('accounts.urls')),
-    url('', include('frontend.urls'))
+    url(r'^admin/', admin.site.urls),
+    url(r'^api/leads/', include('leads.urls')),
+    url(r'^api/auth/', include('accounts.urls')),
+    url(r'^', include('frontend.urls'))
 ]
