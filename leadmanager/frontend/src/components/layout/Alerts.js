@@ -38,4 +38,4 @@ const mapStateToProps = state => ({
   message: state.messages
 });
 
-export default connect(mapStateToProps)(withAlert(Alerts));
+export default connect(mapStateToProps)(withAlert()(Alerts));
