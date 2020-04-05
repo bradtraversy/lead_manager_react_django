@@ -49,7 +49,7 @@
     }
   },
   "lint-staged": {
-    "leadmanager/frontend/src/**/*.{js,jsx}": [
+    "src/**/*.js": [
       "eslint",
       "pretty-quick — staged",
       "git add"
