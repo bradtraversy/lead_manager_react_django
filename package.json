@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
+    "dev": "webpack --config webpack.config.js --mode=development --watch",
+    "build": "webpack --config webpack.config.js --mode=production"
   },
   "keywords": [],
   "author": "",
